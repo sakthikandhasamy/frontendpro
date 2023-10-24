@@ -1,0 +1,101 @@
+
+.container{
+    background-image: linear-gradient(to bottom right,rgb(242, 77, 181),rgb(36, 185, 235));
+  
+    border:1px solid black;
+    border-radius: 40px;
+    margin: 100px 600px 300px 600px;
+    position: relative;
+    right:500px;
+    
+    }
+
+@media(min-width:100px)
+{
+    .container{
+        width: 700px;
+        height: 1150px;
+    }
+}
+    
+
+
+
+.img1{
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 500px;
+    position: relative;
+    left:30px;
+    top: 300px;
+}
+.img2{
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 600px;
+    position: relative;
+    left:80px;
+   top:180px;
+}
+.img3{
+    text-align: center;
+    border-radius: 100px;
+    width:350px;
+    height:250px;
+    position:relative;
+    left:180px;
+    
+}
+
+.welcome{
+    
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    
+}
+.name{
+    
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(233, 47, 10);
+}
+.wedding{
+    text-align: center;
+    position: relative;
+    right: 150px;
+    top:50px;
+    
+    
+}
+.reception{
+    text-align: center;
+    position: relative;
+    left: 150px;
+    bottom:50px;
+}
+.wed_head{
+    
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+}
+.wed_body{
+    
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+.reception{
+ 
+    text-align: center;
+}
+.recep_head{
+   
+    font-family: 'Lobster', sans-serif;
+}
+.recep_body{
+
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
